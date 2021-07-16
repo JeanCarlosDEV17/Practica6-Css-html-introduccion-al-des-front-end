@@ -1,0 +1,132 @@
+* {
+   box-sizing: border-box;
+}
+
+html,
+body {
+   height: 100%;
+}
+body {
+   background-color: #151e33;
+   color: white;
+   font-family: helvetica, sans-serif;
+   /* CENTRAR CON FLEXBOX */
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   /* border: 1px solid ; */
+   height:auto;
+}
+
+/* Create */
+.create {
+   background-color: #1b263e;
+   border-radius: 15px;
+   width: 100%;
+   
+   min-width: 320px;
+   max-width: 785px;
+   /* height: 562px; */
+   margin:5rem auto;
+   /* margin-top: 8rem; */
+   /* padding:  3rem; */
+   
+   /* border: 3px red solid; */
+   
+}
+
+/* Login */
+.login {
+   font-size: 1rem;
+   font-weight: normal;
+   text-align: right;
+   /* margin-top:5rem; */
+   
+   margin: 4rem 2rem 3rem 0;
+   /* border:1px blue solid; */
+   /* margin-right: 20px; */
+   /* margin-top: 100px; */
+}
+
+.login a, .legal a{
+   color: #F089A0;
+   text-decoration:none;
+}
+
+/* Content */
+.content{
+   width:70%;
+   margin:0 auto;
+   
+   /* border:solid 1px red; */
+   /* text-align:center; */
+}
+
+.content>h1 {
+   font-size:1.62rem;
+   text-align:center;
+}
+.content> p:first-of-type{
+   
+   max-width: 75%;
+   text-align:center;
+   margin:1.7rem auto;
+   line-height: 26px;
+}
+
+/* Form */
+
+.form{
+   display:block;
+   max-width:80%;
+   margin:0 auto;
+   align-content: center;
+}
+
+.form label{
+   font-weight:bold;
+   font-size:16px;
+   display:block;/*heredan del ancestro form  display:block;*/
+   margin-bottom: 0.7rem;
+  
+}
+
+ .form input:not([type="submit"]){
+   display:block;
+   width: 100%;
+   background-color:transparent;
+   /* padding:1.5rem; */
+   height:45px;
+   border: none;
+   border: #495E8D 1px solid;   
+   border-radius: 5px;
+   margin-bottom: 1rem  ;
+}
+.form button{
+   width: 100%;
+   padding:1rem;
+   background-color:#E3627F;
+   color: inherit;
+   font-weight: bold;
+   font-size:1.1rem;
+   cursor: pointer;
+} 
+
+/* Legal */
+.legal {
+   width: 100%;
+   background-color:#202E4E;
+   margin:3rem 0 5rem 0;
+   padding:1rem 1rem;
+   
+   border-radius: 10px;
+   align-items: none;
+   align-content: none;
+   text-align: left;
+}
+.legal p{
+   text-align:center
+}
+
+
+
