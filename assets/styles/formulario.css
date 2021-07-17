@@ -101,6 +101,8 @@ body {
    border: #495E8D 1px solid;   
    border-radius: 5px;
    margin-bottom: 1rem  ;
+   color: white;
+   font-size:1.1rem;
 }
 .form button{
    width: 100%;
